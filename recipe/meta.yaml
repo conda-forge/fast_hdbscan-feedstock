@@ -1,13 +1,13 @@
 {% set name = "fast_hdbscan" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/fast_hdbscan-{{ version }}.tar.gz
-  sha256: 002966c2adbac5170a6627ea2f685cdedcd2a1c2cb077401fba6748f0fbc39f0
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fast_hdbscan-{{ version }}.tar.gz
+  sha256: 6c361f40de6dec92fcca60bcd1f94efe4a81524c95998d295cee98d7717ab0ad
 
 build:
   noarch: python
